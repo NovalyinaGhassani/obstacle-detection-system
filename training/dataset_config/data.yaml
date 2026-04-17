@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['kapal-cargo', 'kapal-ikan-tradisional', 'kapal-keruk-pasir', 'kapal-tugboat']
+
+roboflow:
+  workspace: collision-example
+  project: labeling-ta
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/collision-example/labeling-ta/dataset/2
