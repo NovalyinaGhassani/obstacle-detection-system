@@ -1,6 +1,9 @@
 # 🚢 Automated Maritime Obstacle Detection System (YOLOv8 + ONNX)
+AI-powered collision warning system for small-scale fishing vessels, optimized for real-time deployment on Raspberry Pi.
+
 
 ## 🎥 Demo
+[On-board Test Video](assets/deployment/on_board_test.mp4)
 [Watch Demo Video](https://youtu.be/OeMu7DTMnkM)
 
 ## 📸 Detection Preview
@@ -9,7 +12,7 @@
 ![Detection Demo 3](assets/demo_detection/danger_detected_3.jpg)
 
 ## 🚢 Real-World Deployment
-This system was physically tested on a small-scale fishing vessel to simulate real maritime conditions.
+This system was physically deployed and tested on a small-scale fishing vessel under real maritime conditions, validating its practical feasibility.
 
 ![On-board Test Video](assets/deployment/on_board_test.mp4)
 ![Onboard Setup](assets/deployment/setup_1.JPEG)
@@ -36,6 +39,12 @@ Built with efficiency in mind, the model is optimized for deployment on low-reso
 * 💡 LED alert system (GPIO support for Raspberry Pi)
 * 📸 Automatic capture of critical frames (lightweight alternative to video recording)
 * 🧠 End-to-end pipeline: data scraping → training → ONNX deployment
+
+## 📊 Results
+
+- Achieved real-time detection on CPU (Raspberry Pi class device)
+- Stable warning trigger based on object size thresholding
+- Successfully detected multiple vessel types in dynamic conditions
 
 ---
 
@@ -170,6 +179,7 @@ Naval Architecture Graduate | Data & Operations Enthusiast
 
 ## 💡 Notes
 
-This project demonstrates an end-to-end machine learning pipeline, from data collection and model training to real-time deployment on edge devices.
+This project demonstrates an end-to-end machine learning pipeline, from data collection and model training to real-time deployment on edge devices. 
+Dataset is not included due to size constraints.
 
 ---
