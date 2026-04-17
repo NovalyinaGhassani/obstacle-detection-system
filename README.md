@@ -14,7 +14,6 @@ AI-powered collision warning system for small-scale fishing vessels, optimized f
 ## 🚢 Real-World Deployment
 This system was physically deployed and tested on a small-scale fishing vessel under real maritime conditions, validating its practical feasibility.
 
-![On-board Test Video](assets/deployment/on_board_test.mp4)
 ![Onboard Setup](assets/deployment/setup_1.JPEG)
 ![Onboard Setup](assets/deployment/setup_2.JPG)
 
